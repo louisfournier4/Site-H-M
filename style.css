@@ -1,0 +1,133 @@
+@import url(https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular);
+
+* {
+    background-color: #faf9f8;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+
+}
+
+.menu-nav img {
+
+    width: 80px;
+    height: 50px;
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.menu-nav .menu-page ul {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'HM Sans Regular', sans-serif;
+    font-size: 15px;
+
+
+
+
+
+}
+
+
+
+.menu-nav .menu-profil ul {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 60px;
+    font-family: 'HM Sans Regular', sans-serif;
+    font-size: 15px;
+
+
+
+
+
+}
+
+
+
+.menu-nav .menu-page #point:hover {
+    color: red;
+
+}
+
+.menu-nav .menu-page li a {
+    text-decoration: none;
+}
+
+.menu-nav .menu-profil li a {
+    text-decoration: none;
+}
+
+.menu-type ul {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'HM Sans Regular', sans-serif;
+
+}
+
+.outils ul {
+    list-style: none;
+    display: flex;
+    gap: 15em;
+    justify-content: center;
+    font-family: 'HM Sans Regular', sans-serif;
+    font-size: 0.8em;
+    margin-top: 30px;
+
+
+}
+
+#pub-produit {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+body h2 {
+    font-family: 'HM Sans Regular', sans-serif;
+
+}
+
+body button {
+    background-color: #faf9f8;
+    outline: 1px solid black;
+    border-radius: 30px;
+    font-family: 'HM Sans Regular', sans-serif;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin: 0px 16px 0px 0px;
+
+}
+
+body button:hover {
+    background-color: rgb(224, 45, 45);
+    transition: background-color 0.3s;
+    color: white;
+    outline: none;
+    border: none;
+
+
+
+}
+
+body .Nouveauter {
+    margin-left: 50vh;
+
+}
